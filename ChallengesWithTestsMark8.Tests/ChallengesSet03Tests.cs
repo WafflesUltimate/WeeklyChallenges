@@ -145,7 +145,7 @@ namespace ChallengesWithTestsMark8.Tests
         [Theory]
         [InlineData(10, 5, 2)]
         [InlineData(9, 3, 3)]
-        [InlineData(10, 3, 3.3333)]
+        [InlineData(10, 3   , 3.3333)]
         [InlineData(-10, 5, -2)]
         [InlineData(-10, 3, -3.3333)]
         [InlineData(0, 5, 0)]
